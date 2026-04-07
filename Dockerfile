@@ -1,0 +1,12 @@
+FROM node:22-alpine
+
+WORKDIR /app
+
+COPY package.json /app/package.json
+RUN npm install
+
+COPY . /app
+
+RUN npm run build
+
+CMD ["npm", "run", "start", "--", "-H", "0.0.0.0", "-p", "3000"]
