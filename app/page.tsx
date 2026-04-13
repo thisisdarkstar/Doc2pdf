@@ -88,6 +88,8 @@ export default function Home() {
         </div>
       </section>
 
+      <JobConsole />
+
       <section className="faq panel">
         <h2>Quick answers</h2>
         <div className="faq-item">
@@ -103,8 +105,6 @@ export default function Home() {
           <p>Most documentation websites can be converted to PDF or Markdown by entering the docs URL.</p>
         </div>
       </section>
-
-      <JobConsole />
     </main>
   );
 }

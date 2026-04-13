@@ -240,6 +240,10 @@ html[data-theme="dark"] .theme-toggle-thumb {
   display: block;
 }
 
+.faq {
+  margin-top: 2rem;
+}
+
 .hero-single .hero-copy {
   max-width: none;
 }
